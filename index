@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="nav">
+        
+        <h3 class="titre">Point d'écoute est un collectif dédié à la post-production sonore et à la création sonore appliquée.</h3>
+        <ul class="nav_list">
+            <li><h3>WORKS</h3></li>
+            <li><h3>INFOS</h3></li>
+        </ul>
+
+    </div>
+
+
+    <main class="main" id="main">
+
+
+
+
+
+        <div class="projects">
+
+            <div class="block_text">
+                <h2>109 FILMS</h2>
+                    <div class="info_text">
+                        <div>
+                           <p>ELLE EST MOI / Fiction / 6' / 2022 </p>
+                            <p>Mixage : Lou Touchard</p>
+                       </div>
+                    </div>
+            </div>
+
+            <div class="block_text">
+                <h2>AGPROGNOSTIC TEMPLE</h2>
+                    <div class="info_text">
+                        <div>
+                           <p>SCRIPTED TRUTHS / Exposition / 2020 </p>
+                            <p>Création sonore : Lou Touchard</p>
+                       </div>
+                    </div>
+            </div>
+
+            <div class="block_text">
+                <h2>ARTE</h2>
+                    <div class="info_text">
+                        <div>
+                           <p>ALASKA / Documentaire / 52' / 2022 / @Adaptive Sound</p>
+                            <p>Montage : Nathan Bodart</p>
+                            <p>Bruitage : Theo Coudert</p>
+                       </div>
+                    </div>
+            </div>
+            <div class="block_text">
+                <h2>ARTFX</h2>
+            </div>
+            <div class="block_text">
+                <h2>AUDIBLE</h2>
+                    <div class="info_text">
+                        <div>
+                            <p>ANATOLE BRISTOL / Livre Audio / 2022 / @Benjamin Media</p>
+                            <p>Ingénieur du son : Nathan Bodart</p>
+                            <p>Direction d'acteur : Nathan Bodart</p>
+                        </div>
+
+                        <div>
+                           <p>CHAI DE POULE / Livre Audio / 2022 / @Benjamin Media</p>
+                           <p>Ingénieur du son : Nathan Bodart</p>
+                            <p>Direction d'acteur : Nathan Bodart</p>
+                        </div>
+
+                        <div>
+                            <p>LES GRANDES ANNEES / Livre Audio / 2022 /@Benjamin Media</p>
+                            <p>Ingénieur du son : Nathan Bodart</p>
+                            <p>Direction d'acteur : Nathan Bodart</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="block_text">
+                <h2>DISRUPTIVE</h2>
+                    <div class="info_text">
+                        <div>
+                            <p>EN MODE AVION / Documentaire / 61' / 2022</p>
+                            <p>Mixage : Lou Touchard</p>
+                            <p>Montage : Théo Coudert, Lou Touchard</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="block_text">
+                <h2>JEREMY FAGIER</h2>
+                    <div class="info_text">
+                        <div>
+                           <p>MARCEL / Fiction / 20' / 2022 / @Adaptive Sound</p>
+                          <p>Montage : Nathan Bodart</p>
+                          <p>Bruitage : Nathan Bodart</p>
+                         </div>
+                    </div>
+            </div>
+            <div class="block_text">
+                <h2>LA RUCHE</h2>
+                    <div class="info_text">
+                        <div>
+                          <p>MADE IN KINSHASA / Documentaire / 52' / 2022 / @Studio 2C</p>
+                           <p>Assistant Montage : Théo Coudert</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="block_text">
+                <h2>NIGHTBIRD PRODUCTION</h2>
+                <div class="info_text">
+                    <div>
+                        <p>UNE BALLE ET PUIS S'EN VA / Fiction / 6' / 2022</p>
+                        <p>Mixagege : Nathan Bodart</p>
+                         <p>Montage : Nathan Bodart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block_text">
+                <h2>PSYCHOTIC FILMS</h2>
+                    <div class="info_text">
+                        <div>
+                           <p>TRAC / Fiction / 25' / 2022 </p>
+                            <p>Montage : Théo Coudert</p>
+                            <p>Bruitage : Lou Touchard</p>
+                        </div>
+                    </div>
+
+        </div>
+
+    </main>
+
+  <footer>
+
+    <div class="contact">
+
+        <h1>contact@pointdecoute.fr</h1>
+    </div>
+
+
+  </footer>
+
