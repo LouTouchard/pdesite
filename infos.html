@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-size: 1.2rem;
+  cursor: url("pde_pointer.png"), pointer;
+}
+
+body{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  overflow: scroll;
+  font-family: "nimbusromno9l-reg";
+  font-weight: lighter;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 0.7rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+#purple{
+    /* color: #AA78A6; */
+    font-style: italic;
+}
+
+#grey{
+    color: #B8A8C8;
+}
+
+.nav{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav_list{
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    list-style-type:none;
+
+}
+
+
+
+/* .nav_list{
+    margin-left: 1%;
+    margin-right: 4%;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 19%;
+    list-style-type:none;
+} */
+
+.main{
+    margin-top: 20%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    margin-right: 2%;
+}
+
+
+.titre{
+    margin-left: 0%;
+}
+
+        
+.map{
+    margin-left: 15%;
+}
+
+#map{
+    max-width: 90%;
+}
+
+.network{
+    padding-bottom: 30%;
+}
+
+.border{
+  border-top: 1px solid white;
+  margin-top: 5%;
+  padding-top: 5%;
+  border-width: 100%;
+}
+
+.contact{
+    left: 10%;
+    top: 90%;
+    position: fixed;
+    background-color: #000000;
+    border: 1px solid white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+    <div class="nav">
+        <ul class="nav_list">
+            <li><h3>WORKS</h3></li>
+            <li><h3>INFOS</h3></li>           
+        </ul>
+    
+    </div>
+
+    <main class="main" id="main">
+
+        <p class="titre">Point d'écoute est un collectif dédié à la <span id="purple">post-production</span> sonore et à la <span id="purple">création sonore</span> appliquée.</p>
+
+                
+        <div class="map">
+            <img id="map" src="C:\Users\ltouc\Downloads\Map_Site.png"> 
+        </div>
+
+      <div class="page_infos">
+
+
+        <div class="team border">
+           <h3>NOUS SOMMES</h3>
+           <span id="grey">Théo Coudert</span>, monteur son et bruiteur formé au studio Audioworkshop Montpellier (Ubisoft, Netflix...).<br>
+           <br>
+           <span id="grey">Lou Touchard</span>, artiste sonore et technicien multisupport diplômé au Conservatoire Royal de Mons.<br>
+           <br>
+           <span id="grey">Nathan Bodart</span>, mixeur et monteur son formé aux studios Audioworkshop Montpellier et Piste Rouge.<br>
+        </div>
+
+        <div class="Postprod border">
+        <h3>POST-PRODUCTION</h3>
+        Bruitage, montage et mixage surround pour tous formats audiovisuels
+      </div>
+        
+      
+      <div class="Multimedia border">
+        <h3>MULTIMEDIA</h3>
+        Création sonore multicanal, scénographie et spatialisation pour spectacles et expositions.<br>
+        <br>
+        Programmation audionumérique au travers de l'environnement <i>Max-MSP</i>.
+      </div>
+      
+      <div class="network border">
+      <h3>RETROUVEZ-NOUS SUR</h3>
+     Instagram / Facebook / AUTRES
+    </div>
+
+
+
+      </div>
+
+      </main>
+
+      <footer>
+
+        <div class="contact">
+    
+            <h1>contact@pointdecoute.fr</h1>
+          </div>
+        </div>
+    
+      </footer>
