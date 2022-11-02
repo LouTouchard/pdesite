@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-size: 1.2rem;
+  cursor: url("pde_pointer.png"), pointer;
+}
+
+body{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  overflow: scroll;
+  font-family: "nimbusromno9l-reg";
+  font-weight: lighter;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 0.7rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+#purple{
+    /* color: #AA78A6; */
+    font-style: italic;
+}
+
+#grey{
+    color: #B8A8C8;
+}
+
+.nav{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav_list{
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    list-style-type:none;
+
+}
+
+.main{
+    margin-top: 20%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    margin-right: 2%;
+}
+
+#logo{
+    top: 20%;
+    position: fixed;
+    z-index: -1;
+}
+
+.projects::-webkit-scrollbar { width: 0 !important }
+.projects { overflow: -moz-scrollbars-none; }
+.projects { -ms-overflow-style: none; }
+
+.block_text::-webkit-scrollbar { width: 0 !important }
+.block_text { overflow: -moz-scrollbars-none; }
+.block_text { -ms-overflow-style: none; }
+
+.projects{
+    width: 95%;
+    overflow-x: scroll;
+
+}
+
+.block_text{
+    margin-bottom: 25px;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    border-top: 1px solid #FFF;
+    color: rgb(255, 255, 255);
+    border-color: var(--base-color);
+    vertical-align: baseline;
+    height: 85px;
+    white-space: nowrap; 
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+
+.block_text:hover{
+    height: 280px;
+    line-height: 0.5rem;
+}
+
+.info_text{
+    display:flex;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact{
+    top: 90%;
+    position: fixed;
+    background-color: #000000;
+    border: 1px solid white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+    <div class="nav">
+        <ul class="nav_list">
+            <li><h3> <a href="loutouchard.github.io/pdesite/works.html"> WORKS</a></h3></li>
+            <li><h3><a href="loutouchard.github.io/pdesite/infos.html"> INFOS</a></h3></li>           
+        </ul>
+    
+    </div>
+
+    <main class="main" id="main">
+
+        <p class="titre">Point d'écoute est un collectif dédié à la <span id="purple">post-production</span> sonore et à la <span id="purple">création sonore</span> appliquée.</p>
+
+
+    <div class="logo">
+        <img id="logo" src="C:\Users\ltouc\Downloads\logobnw.png"> 
+    </div>
+    
+
+    <div class="projects">
+
+        <div class="block_text">
+            <h2>109 FILMS</h2>
+                <div class="info_text">
+                    <div>
+                       <p>ELLE EST MOI</p>
+                       <p>Fiction / 6' / 2022</p>
+                        <p>Mixage : Lou Touchard</p>
+                   </div>
+                </div>
+        </div>
+
+        <div class="block_text">
+            <h2>AGPROGNOSTIC TEMPLE</h2>
+                <div class="info_text">
+                    <div>
+                       <p>SCRIPTED TRUTHS</p>
+                       <p>Exposition / 2020 </p>
+                        <p>Création sonore : Lou Touchard</p>
+                   </div>
+                </div>
+        </div>
+
+        <div class="block_text">
+            <h2>ARTE</h2>
+                <div class="info_text">
+                    <div>
+                       <p>ALASKA</p>
+                       <p> @Adaptive Sound</p>
+                       <p>Documentaire / 52' / 2022</p>
+                        <p>Montage : Nathan Bodart</p>
+                        <p>Bruitage : Theo Coudert</p>
+                   </div>
+                </div>
+        </div>
+        <div class="block_text">
+            <h2>ARTFX</h2>
+        </div>
+        <div class="block_text">
+            <h2>AUDIBLE</h2>
+                <div class="info_text">
+                    <div>
+                        <p>ANATOLE BRISTOL</p>
+                        <p>@Benjamin Media</p>
+                        <p>Livre Audio / 2022</p>
+                        <p>Ingénieur du son : Nathan Bodart</p>
+                        <p>Direction d'acteur : Nathan Bodart</p>
+                    </div>
+
+                    <div>
+                       <p>CHAI DE POULE</p>
+                       <p>@Benjamin Media</p>
+                       <p>Livre Audio / 2022</p>
+                       <p>Ingénieur du son : Nathan Bodart</p>
+                        <p>Direction d'acteur : Nathan Bodart</p>
+                    </div>
+
+                    <div>
+                        <p>LES GRANDES ANNEES</p>
+                        <p>@Benjamin Media</p>
+                        <p>Livre Audio / 2022</p>
+                        <p>Ingénieur du son : Nathan Bodart</p>
+                        <p>Direction d'acteur : Nathan Bodart</p>
+                    </div>
+                </div>
+        </div>
+        <div class="block_text">
+            <h2>DISRUPTIVE</h2>
+                <div class="info_text">
+                    <div>
+                        <p>EN MODE AVION</p>
+                        <p>Documentaire / 61' / 2022</p>
+                        <p>Mixage : Lou Touchard</p>
+                        <p>Montage : Théo Coudert, Lou Touchard</p>
+                    </div>
+                </div>
+        </div>
+        <div class="block_text">
+            <h2>JEREMY FAGIER</h2>
+                <div class="info_text">
+                    <div>
+                       <p>MARCEL</p>
+                       <p>@Adaptive Sound</p>
+                       <p>Fiction / 20' / 2022</p>
+                      <p>Montage : Nathan Bodart</p>
+                      <p>Bruitage : Nathan Bodart</p>
+                     </div>
+                </div>
+        </div>
+        <div class="block_text">
+            <h2>LA RUCHE</h2>
+                <div class="info_text">
+                    <div>
+                      <p>MADE IN KINSHASA</p>
+                      <p>@Studio 2C</p>
+                      <p>Documentaire / 52' / 2022</p>
+                       <p>Assistant Montage : Théo Coudert</p>
+                    </div>
+                </div>
+        </div>
+        <div class="block_text">
+            <h2>NIGHTBIRD PRODUCTION</h2>
+            <div class="info_text">
+                <div>
+                    <p>UNE BALLE ET PUIS S'EN VA</p>
+                    <p>Fiction / 6' / 2022</p>
+                    <p>Mixagege : Nathan Bodart</p>
+                     <p>Montage : Nathan Bodart</p>
+                </div>
+            </div>
+        </div>
+        <div class="block_text">
+            <h2>PSYCHOTIC FILMS</h2>
+                <div class="info_text">
+                    <div>
+                       <p>TRAC</p>
+                       <p>Fiction / 25' / 2022</p>
+                        <p>Montage : Théo Coudert</p>
+                        <p>Bruitage : Lou Touchard</p>
+                    </div>
+                </div>
+
+    </div>
+
+
+    </main>
+
+
+    
+    <footer>
+
+        <div class="contact">
+    
+            <h1>contact@pointdecoute.fr</h1>
+          </div>
+        </div>
+    
+      </footer>
